@@ -1,4 +1,9 @@
 obj/
+jni/ccv/site/
+jni/ccv/test/
+jni/ccv/doc/
+jni/ccv/js/
+jni/ccv/samples/
 R.txt
 *.o
 *.jar
@@ -9,3 +14,8 @@ R.java
 lint.xml
 *.dex
 *.o.d
+*.bin
+*.png
+*.jpg
+*.htm
+*.markdown
