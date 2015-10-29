@@ -10,6 +10,7 @@ OPENCV_LIB_TYPE:=SHARED
 include ${OPENCVROOT}/sdk/native/jni/OpenCV.mk
 
 FILE_LIST := $(wildcard $(LOCAL_PATH)/ccv/test/unit/*.c) # must put before other error
+FILE_LIST := $(wildcard $(LOCAL_PATH)/ccv/test/regression/*.c) # must put before other error
 FILE_LIST := $(wildcard $(LOCAL_PATH)/ccv/bin/*.c)
 FILE_LIST := $(wildcard $(LOCAL_PATH)/ccv/lib/*.c)
 FILE_LIST := $(wildcard $(LOCAL_PATH)/ccv/lib/3rdparty/sqlite3/*.c)
